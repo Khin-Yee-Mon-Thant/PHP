@@ -1,0 +1,15 @@
+p{
+  text-align: center;
+  font-size: 24px;
+}
+.cal-age{
+  background-color: #ffc0cb;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  display: block;
+}
+.btn{
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
