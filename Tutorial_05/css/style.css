@@ -1,23 +1,27 @@
-*{
+* {
   box-sizing: border-box;
 }
-body{
-  text-align: center;
+
+body {
   background-color: #fff0f5;
+  text-align: center;
 }
-h2{
-  font-size: 24px;
+
+h2 {
   margin: 15px 0;
   color: #ff69b4;
+  font-size: 24px;
 }
-.container{
+
+.container {
   width: 50%;
   margin: auto;
 }
-table{
+
+table {
   margin: auto;
 }
-table td{
+
+table td {
   border: 1px dotted #DB7093;
 }
-

@@ -12,14 +12,14 @@
 
 <body>
     <?php
-    $myfile = fopen("sample.txt", "r") or die("Unable to open file!");
-    $txt = fread($myfile, filesize("sample.txt"));
+    $myfile = fopen("file/sample.txt", "r") or die("Unable to open file!");
+    $txt = fread($myfile, filesize("file/sample.txt"));
     fclose($myfile);
 
     require 'vendor/autoload.php';
     $content = '';
     $reader = \PhpOffice\PhpWord\IOFactory::createReader("Word2007");
-    $phpWord = $reader->load("sample.docx");
+    $phpWord = $reader->load("file/sample.docx");
     foreach ($phpWord->getSections() as $section) {
         foreach ($section->getElements() as $element) {
             if (method_exists($element, 'getElements')) {
@@ -37,13 +37,14 @@
     }
 
     $reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
-    $xlsx = $reader->load("sample.xlsx");
+    $xlsx = $reader->load("file/sample.xlsx");
     $weathers = $xlsx->getActiveSheet()->toArray();
 
     $reader = new \PhpOffice\PhpSpreadsheet\Reader\Csv();
-    $csv = $reader->load("sample.csv");
+    $csv = $reader->load("file/sample.csv");
     $users = $csv->getActiveSheet()->toArray();
     ?>
+
     <div class="container">
     <h2>.txt</h2>
     <p><?php echo $txt; ?></p>
