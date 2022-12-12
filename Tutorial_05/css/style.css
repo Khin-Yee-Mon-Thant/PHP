@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+  background-color: #fff0f5;
+}
+h2{
+  font-size: 24px;
+  margin: 15px 0;
+  color: #ff69b4;
+}
+.container{
+  width: 50%;
+  margin: auto;
+}
+table{
+  margin: auto;
+}
+table td{
+  border: 1px dotted #DB7093;
+}
+
