@@ -7,21 +7,21 @@ body {
   text-align: center;
 }
 
-h2 {
-  margin: 15px 0;
-  color: #ff69b4;
-  font-size: 24px;
-}
-
 .container {
   width: 50%;
   margin: auto;
 }
 
-table {
+.container h2 {
+  margin: 15px 0;
+  color: #ff69b4;
+  font-size: 24px;
+}
+
+.output {
   margin: auto;
 }
 
-table td {
+.output td {
   border: 1px dotted #DB7093;
 }

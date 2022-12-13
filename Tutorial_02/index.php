@@ -1,32 +1,32 @@
 <?php
-$i = 1;
-while ($i <= 6) {
-    $j = 6;
-    while ($j > $i) {
+$row = 1;
+while ($row <= 6) {
+    $space = 6;
+    while ($space > $row) {
         echo "&nbsp&nbsp&nbsp";
-        $j--;
+        $space--;
     }
-    $k = 1;
-    while ($k <= (2 * $i - 1)) {
+    $star = 1;
+    while ($star <= (2 * $row - 1)) {
         echo "*&nbsp";
-        $k++;
+        $star++;
     }
     echo "<br>";
-    $i++;
+    $row++;
 }
-$i = 5;
-while ($i >= 1) {
-    $j = 6;
-    while ($j > $i) {
+$row = 5;
+while ($row >= 1) {
+    $space = 6;
+    while ($space > $row) {
         echo "&nbsp&nbsp&nbsp";
-        $j--;
+        $space--;
     }
-    $k = 1;
-    while ($k <= (2 * $i - 1)) {
+    $star = 1;
+    while ($star <= (2 * $row - 1)) {
         echo "*&nbsp";
-        $k++;
+        $star++;
     }
     echo "<br>";
-    $i--;
+    $row--;
 }
 ?>

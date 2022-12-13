@@ -2,44 +2,41 @@ body {
   text-align: center;
 }
 
-.login-form {
-  display: block;
-  width: 20%;
-  margin: 100px auto;
-  padding: 20px 0;
-  background-color: #F5F5DC;
-  border: 1px solid #000000;
-  text-align: center;
-}
-
-input {
-  margin-bottom: 10px;
-}
-
-h1 {
-  color: #008B8B;
-  font-size: 32px;
-  padding: 20px;
-}
-
 a {
-  padding: 5px 10px;
-  background-color: #F5F5DC;
-  border: 1px solid #000000;
   text-decoration: none;
-  display: inline-block;
 }
 
 button {
   cursor: pointer;
 }
 
-.btn {
-  background-color: #ffffff;
+.login-form {
+  display: block;
+  width: 20%;
+  margin: 100px auto;
+  padding: 20px 0;
   border: 1px solid #000000;
-  padding: 5px 10px;
+  background-color: #F5F5DC;
+  text-align: center;
 }
 
-.error{
+.login-form input {
+  margin-bottom: 10px;
+}
+
+#heading {
+  padding: 20px;
+  color: #008B8B;
+  font-size: 32px;
+}
+
+.btn {
+  padding: 5px 10px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.error {
   color: #ff0000;
 }

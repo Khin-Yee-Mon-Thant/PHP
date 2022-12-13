@@ -1,15 +1,22 @@
-p{
+.require {
+  color: #DC143C;
   text-align: center;
-  font-size: 24px;
 }
-.cal-age{
-  background-color: #ffc0cb;
+
+.result {
+  font-size: 24px;
+  text-align: center;
+}
+
+.cal-age {
+  display: block;
   margin: auto;
   padding: 20px;
+  background-color: #ffc0cb;
   text-align: center;
-  display: block;
 }
-.btn{
-  background-color: #ffffff;
+
+.btn {
   border: 1px solid #000000;
+  background-color: #ffffff;
 }

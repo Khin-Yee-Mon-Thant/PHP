@@ -51,7 +51,7 @@
     <h2>.doc</h2>
     <p><?php echo $content; ?></p>
     <h2>.xlsx</h2>
-    <table>
+    <table class="output">
         <?php foreach ($weathers as $weather) { ?>
             <tr>
                 <?php foreach ($weather as $key => $value) { ?>
@@ -61,7 +61,7 @@
         <?php } ?>
     </table>
     <h2>.csv</h2>
-    <table>
+    <table class="output">
         <?php foreach ($users as $user) { ?>
             <tr>
                 <?php foreach ($user as $key => $value) { ?>
