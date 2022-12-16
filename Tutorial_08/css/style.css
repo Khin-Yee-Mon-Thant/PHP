@@ -1,0 +1,41 @@
+.preserve {
+  white-space: pre-wrap;
+}
+
+.table.table-striped {
+  table-layout: fixed;
+}
+
+.table.table-striped #id {
+  width: 5%;
+}
+
+.table.table-striped #title {
+  width: 10%;
+}
+
+.table.table-striped #content {
+  width: 40%;
+}
+
+.table.table-striped #publish {
+  width: 10%;
+}
+
+.table.table-striped #date {
+  width: 12%;
+}
+
+.table.table-striped td {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.table.table-striped .content {
+  width: 400px;
+}
+
+.table.table-striped .id {
+  font-weight: 700;
+}
